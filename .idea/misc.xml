@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/oop-review" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -10,12 +13,14 @@
         <option value="$PROJECT_DIR$/oop/pom.xml" />
         <option value="$PROJECT_DIR$/streams/pom.xml" />
         <option value="$PROJECT_DIR$/collections/pom.xml" />
+        <option value="$PROJECT_DIR$/oop-spring/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/java-review/collections/pom.xml" />
         <option value="$PROJECT_DIR$/java-review/pom.xml" />
+        <option value="$PROJECT_DIR$/oop/pom.xml" />
       </set>
     </option>
   </component>
