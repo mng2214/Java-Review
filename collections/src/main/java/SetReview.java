@@ -31,7 +31,6 @@ public class SetReview {
         for(Character ch:str.toCharArray()) if(!chars.add(ch)) return ch;
         return null;
     }
-
     public static char returner () {
         String str =  "Java Developer";
         HashSet<Character> set = new HashSet<>();
