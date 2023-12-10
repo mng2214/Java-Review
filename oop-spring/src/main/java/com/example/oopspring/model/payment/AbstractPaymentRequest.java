@@ -2,7 +2,6 @@ package com.example.oopspring.model.payment;
 
 
 import com.example.oopspring.enums.Localization;
-
 import java.math.BigDecimal;
 import java.util.Arrays;
 

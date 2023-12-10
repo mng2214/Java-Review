@@ -16,7 +16,7 @@ import java.util.ResourceBundle;
 @RequestMapping("/payment")
 public class PaymentController {
 
-    private final BigDecimal THREEDS_LIMIT  = new BigDecimal(500);
+    private final BigDecimal THREADS_LIMIT = new BigDecimal(500);
 
     private final ResourceBundle resourceBundle;
 
@@ -45,7 +45,7 @@ public class PaymentController {
         if (CardType.DEBIT.equals(authRequest.getCardType())) {
             return true;
         } else {
-            return authRequest.getAmount().compareTo(THREEDS_LIMIT) > 0;
+            return authRequest.getAmount().compareTo(THREADS_LIMIT) > 0;
         }
     }
 

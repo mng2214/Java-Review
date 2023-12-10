@@ -4,13 +4,17 @@ import com.example.oopspring.enums.CardType;
 import com.example.oopspring.enums.Localization;
 import com.example.oopspring.enums.ServiceProvider;
 import com.example.oopspring.helper.ObjectHelper;
+import lombok.Getter;
 
 import java.math.BigDecimal;
 
 public class AuthRequest extends AbstractPaymentRequest {
 
+    @Getter
     private ServiceProvider serviceProvider;
+    @Getter
     private String posName;
+    @Getter
     private CardType cardType;
     private Integer installment;
     private boolean hybridPayment;
@@ -30,29 +34,6 @@ public class AuthRequest extends AbstractPaymentRequest {
         this.installment = installment;
     }
 
-    public ServiceProvider getServiceProvider() {
-        return serviceProvider;
-    }
-
-    public void setServiceProvider(ServiceProvider serviceProvider) {
-        this.serviceProvider = serviceProvider;
-    }
-
-    public String getPosName() {
-        return posName;
-    }
-
-    public void setPosName(String posName) {
-        this.posName = posName;
-    }
-
-    public CardType getCardType() {
-        return cardType;
-    }
-
-    public void setCardType(CardType cardType) {
-        this.cardType = cardType;
-    }
 
     public Integer getInstallment() {
         if (ObjectHelper.isNotPresent(installment)){
@@ -61,19 +42,10 @@ public class AuthRequest extends AbstractPaymentRequest {
         return installment;
     }
 
-    public void setInstallment(Integer installment) {
-        this.installment = installment;
-    }
 
     // decide payment will be processed as hybrid or tenant
     public boolean isHybridPayment() {
-        if (hybridPayment && ObjectHelper.isPresent(posName)){
-            return Boolean.TRUE;
-        }else
-            return Boolean.FALSE;
+        return (hybridPayment && ObjectHelper.isPresent(posName))?Boolean.TRUE: Boolean.FALSE;
     }
 
-    public void setHybridPayment(boolean hybridPayment) {
-        this.hybridPayment = hybridPayment;
-    }
 }
