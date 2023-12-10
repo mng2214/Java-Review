@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ArrayList {
+public class ArrayListReview {
     public static void main(String[] args) {
         // Create ArrayList and a class
         List<Student> students= new java.util.ArrayList<>();
