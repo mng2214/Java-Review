@@ -1,5 +1,6 @@
 package ArrayListPracice;
 
+import TestData.Student;
 import com.github.javafaker.Faker;
 
 import java.util.*;
@@ -50,7 +51,7 @@ public class ArrayListReview {
 //        }
 
 //        while (iterator.hasPrevious()){
-//            Student student = iterator.previous();
+//            TestData.Student student = iterator.previous();
 //            System.out.println(student);
 //        }
 

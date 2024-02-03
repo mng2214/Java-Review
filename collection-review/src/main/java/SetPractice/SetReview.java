@@ -1,6 +1,6 @@
 package SetPractice;
 
-import ArrayListPracice.Student;
+import TestData.Student;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -16,6 +16,7 @@ public class SetReview {
         studentSet.add(new Student(2, faker.name().firstName()));
         studentSet.add(new Student(3, faker.name().firstName()));
         studentSet.add(new Student(4, faker.name().firstName()));
+        studentSet.add(new Student(5, faker.name().firstName()));
         studentSet.add(new Student(5, faker.name().firstName()));
 
         System.out.println(studentSet);
