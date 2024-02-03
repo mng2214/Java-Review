@@ -24,10 +24,10 @@ public class ArrayListReview {
         for (int i = 0; i < studentList.size(); i++) System.out.println(studentList.get(i));
 
         System.out.println("-----------------------------------");
+
         // Iterator forward
 
         ListIterator<Student> iterator = studentList.listIterator();
-
         while (iterator.hasNext()) System.out.println(iterator.next());
 
         System.out.println("-----------------------------------");
@@ -44,8 +44,6 @@ public class ArrayListReview {
 
         System.out.println("-----------------------------------");
         // Iterator backward
-
-        iterator = studentList.listIterator();
 
 //        while(((ListIterator<?>) iterator).hasPrevious()){
 //            System.out.println(((ListIterator<?>) iterator).previous());
@@ -66,11 +64,10 @@ public class ArrayListReview {
         System.out.println(studentList);
 
         // Sorting by name desc
-        Collections.sort(studentList, new sortByNameDesc());
+        studentList.sort(new sortByNameDesc());
         System.out.println(studentList);
 
     }
-
 
     static class sortByIdDesc implements Comparator<Student> {
         @Override
