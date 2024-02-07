@@ -22,6 +22,7 @@ public class TestApple {
 
         System.out.println(heavyApple);
         System.out.println(greenApple);
+
     }
 
     private static List<Apple> filetApples(List<Apple> inventory, ApplePredicate applePredicate) {
