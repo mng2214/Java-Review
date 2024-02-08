@@ -1,12 +1,9 @@
 package review;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+public class Student extends Person {
 
-@Data
-@AllArgsConstructor
-public class Student {
-    private String name;
-    private int id;
+    public Student(String name, int id) {
+        super(name, id);
+    }
 
 }
