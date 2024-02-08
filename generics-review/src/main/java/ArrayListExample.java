@@ -4,7 +4,7 @@ import java.util.Objects;
 public class ArrayListExample {
     public static void main(String[] args) {
 
-        ArrayList<Integer> items = new ArrayList<>();
+        ArrayList<Integer>items = new ArrayList<>();
 
         items.add(1);
         items.add(2);
@@ -13,6 +13,10 @@ public class ArrayListExample {
         // items.add("4");
 
         printDouble(items);
+
+        for(Integer item : items){
+            System.out.println(item * 2 );
+        }
 
     }
 
