@@ -5,10 +5,8 @@ public class PredicateReview {
     public static void main(String[] args) {
 
 
-
         Predicate<Integer> isOddOrEven = input -> input % 2 == 0;
         System.out.println(isOddOrEven.test(241));
-
 
 
         BiPredicate<int[], Integer> isArrayContainsNumber = (arrayOfNumbers, number) -> {
