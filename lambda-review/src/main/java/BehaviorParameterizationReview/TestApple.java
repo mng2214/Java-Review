@@ -23,6 +23,10 @@ public class TestApple {
         System.out.println(heavyApple);
         System.out.println(greenApple);
 
+        System.out.println("***********************");
+
+        prettyPrintApple(inventory,new SimpleOutput());
+
     }
 
     private static List<Apple> filetApples(List<Apple> inventory, ApplePredicate applePredicate) {
@@ -34,6 +38,14 @@ public class TestApple {
         }
         return result;
     }
+
+    public static void prettyPrintApple (List<Apple> inventory, AppleFormatter appleFormatter){
+        for (Apple apple : inventory) {
+            String output = appleFormatter.accept(apple);
+            System.out.println(output);
+        }
+    }
+
 
 
 }
