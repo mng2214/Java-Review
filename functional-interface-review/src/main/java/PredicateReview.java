@@ -1,3 +1,4 @@
+import java.util.Comparator;
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
 
@@ -7,7 +8,6 @@ public class PredicateReview {
 
         Predicate<Integer> isOddOrEven = input -> input % 2 == 0;
         System.out.println(isOddOrEven.test(241));
-
 
         BiPredicate<int[], Integer> isArrayContainsNumber = (arrayOfNumbers, number) -> {
 
