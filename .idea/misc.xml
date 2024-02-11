@@ -12,7 +12,13 @@
         <option value="$PROJECT_DIR$/lambda-review/pom.xml" />
         <option value="$PROJECT_DIR$/functional-interface-review/pom.xml" />
         <option value="$PROJECT_DIR$/solution-libruary/pom.xml" />
+        <option value="$PROJECT_DIR$/functional-interface-review/stream-review/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/functional-interface-review/stream-review/pom.xml" />
+      </set>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
