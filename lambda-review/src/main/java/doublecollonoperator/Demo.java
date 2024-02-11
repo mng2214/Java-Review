@@ -2,6 +2,7 @@ package doublecollonoperator;
 
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
+import java.util.function.Function;
 
 public class Demo {
     public static void main(String[] args) {
@@ -38,6 +39,14 @@ public class Demo {
 
         // Constructor reference
 
-        //-->>
+        //-->> Car Test
+
+        BiFunction<MyClass, Integer, Double> v1 = MyClass::method;
+
+        //OR
+
+        Function<Integer, Double> v2 = new MyClass()::method;
+
+
     }
 }

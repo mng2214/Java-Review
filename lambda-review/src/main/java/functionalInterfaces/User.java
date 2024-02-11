@@ -1,4 +1,4 @@
-package FunctionalInterfaces;
+package functionalInterfaces;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
