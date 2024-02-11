@@ -2,6 +2,7 @@ package practiceTask;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Function;
 
 public class OrangeTest {
     public static void main(String[] args) {
@@ -16,7 +17,8 @@ public class OrangeTest {
         inventory.add(Orange.builder().weight(100).build()); //builder skipped color
 
         OrangeFormatter simpleFormat = orange -> "An orange of " + orange.getWeight() + " g.";
-        prettyPrintOrange(inventory, simpleFormat);
+//        prettyPrintOrange(inventory, simpleFormat);
+        prettyPrintOrange(inventory, orange -> "An orange of " + orange.getWeight() + " g.");
         System.out.println("***********************");
 
         // providing action directly
@@ -31,9 +33,16 @@ public class OrangeTest {
 
     }
 
-    private static void prettyPrintOrange(List<Orange> inventory, OrangeFormatter orangeFormatter) {
+//    private static void prettyPrintOrange(List<Orange> inventory, OrangeFormatter orangeFormatter) {
+//        for (Orange orange : inventory) {
+//            String output = orangeFormatter.accept(orange);
+//            System.out.println(output);
+//        }
+//    }
+
+    private static void prettyPrintOrange(List<Orange> inventory, Function<Orange, String> orangeFormatter) {
         for (Orange orange : inventory) {
-            String output = orangeFormatter.accept(orange);
+            String output = orangeFormatter.apply(orange);
             System.out.println(output);
         }
     }
