@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,10 +10,11 @@
         <module name="solution-libruary-practice" />
         <module name="lambda-review" />
         <module name="functional-interface-review" />
+        <module name="java-review" />
         <module name="oop-review" />
         <module name="collection-review" />
-        <module name="generics-review" />
         <module name="streams-review" />
+        <module name="generics-review" />
       </profile>
     </annotationProcessing>
   </component>
