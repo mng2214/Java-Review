@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/functional-interface-review/pom.xml" />
         <option value="$PROJECT_DIR$/solution-libruary/pom.xml" />
         <option value="$PROJECT_DIR$/functional-interface-review/stream-review/pom.xml" />
+        <option value="$PROJECT_DIR$/../streams-review/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
