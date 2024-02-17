@@ -10,7 +10,6 @@
         <module name="solution-libruary-practice" />
         <module name="lambda-review" />
         <module name="functional-interface-review" />
-        <module name="java-review" />
         <module name="oop-review" />
         <module name="collection-review" />
         <module name="streams-review" />
