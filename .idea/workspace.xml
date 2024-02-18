@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c95c59-9a3f-4aa6-9968-026203b413c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/EmployeeData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/EmployeeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/FlatMap().txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/CityData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/MatchingAndFinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +38,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.CityData.executor": "Run",
     "Application.DishTask.executor": "Run",
     "Application.EmployeeTest.executor": "Run",
+    "Application.MatchingAndFinding.executor": "Run",
     "Application.StreamOperations.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -64,7 +65,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmployeeTest">
+  <component name="RunManager" selected="Application.MatchingAndFinding">
+    <configuration name="CityData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CityData" />
+      <module name="streams-review" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DishTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DishTask" />
       <module name="streams-review" />
@@ -74,6 +82,13 @@
     </configuration>
     <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
+      <module name="streams-review" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatchingAndFinding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatchingAndFinding" />
       <module name="streams-review" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,6 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatchingAndFinding" />
+        <item itemvalue="Application.CityData" />
         <item itemvalue="Application.EmployeeTest" />
         <item itemvalue="Application.DishTask" />
         <item itemvalue="Application.StreamOperations" />
@@ -116,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708202034622</updated>
-      <workItem from="1708202035618" duration="6574000" />
+      <workItem from="1708202035618" duration="8355000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <option name="closed" value="true" />
@@ -150,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708213891085</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="flatMap refactor">
+      <option name="closed" value="true" />
+      <created>1708215226478</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708215226478</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +185,7 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="stream review" />
     <MESSAGE value="stream practice Dish class" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream practice Dish class" />
+    <MESSAGE value="flatMap refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="flatMap refactor" />
   </component>
 </project>
