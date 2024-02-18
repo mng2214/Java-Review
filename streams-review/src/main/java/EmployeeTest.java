@@ -30,6 +30,5 @@ public class EmployeeTest {
                 .flatMap(List::stream)
                 .forEach(System.out::println);
 
-
     }
 }

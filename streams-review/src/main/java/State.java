@@ -1,15 +1,16 @@
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Getter;
-
+import java.util.ArrayList;
 import java.util.List;
 
-
 public class State {
-     List<String> cities;
+    private String name;
+    private List<String> cities = new ArrayList<>();
 
     public void addCity(String city) {
-       cities.add(city);
+        cities.add(city);
+    }
+
+    public List<String> getCity() {
+        return this.cities;
     }
 
 }

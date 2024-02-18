@@ -26,8 +26,6 @@ public class MatchingAndFinding {
         Optional<Dish> dish = DishData.getAll().stream()
                 .filter(Dish::isVegetarian)
                 .findAny();
-
-
         System.out.println("findAny  = " + dish.get());
         System.out.println("-".repeat(40));
 
@@ -36,11 +34,8 @@ public class MatchingAndFinding {
         Optional<Dish> findFirst = DishData.getAll().stream()
                 .filter(Dish::isVegetarian)
                 .findFirst();
-
         System.out.println("findFirst = " + findFirst.get());
         System.out.println("-".repeat(40));
-
     }
-
 
 }

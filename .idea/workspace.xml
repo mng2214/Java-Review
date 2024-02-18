@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c95c59-9a3f-4aa6-9968-026203b413c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/CityData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/MatchingAndFinding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/Reducing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/StateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/Trader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/TraderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/TransactionData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streams-review/src/main/java/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams-review/src/main/java/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streams-review/src/main/java/MatchingAndFinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams-review/src/main/java/MatchingAndFinding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streams-review/src/main/java/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams-review/src/main/java/State.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +48,10 @@
     "Application.DishTask.executor": "Run",
     "Application.EmployeeTest.executor": "Run",
     "Application.MatchingAndFinding.executor": "Run",
+    "Application.Reducing.executor": "Run",
+    "Application.StateTest.executor": "Run",
     "Application.StreamOperations.executor": "Run",
+    "Application.TraderTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -65,23 +74,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MatchingAndFinding">
+  <component name="RunManager" selected="Application.StateTest">
     <configuration name="CityData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CityData" />
-      <module name="streams-review" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DishTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DishTask" />
-      <module name="streams-review" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
       <module name="streams-review" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,8 +89,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamOperations" />
+    <configuration name="Reducing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reducing" />
+      <module name="streams-review" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StateTest" />
+      <module name="streams-review" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TraderTest" />
       <module name="streams-review" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StateTest" />
+        <item itemvalue="Application.TraderTest" />
+        <item itemvalue="Application.Reducing" />
         <item itemvalue="Application.MatchingAndFinding" />
         <item itemvalue="Application.CityData" />
-        <item itemvalue="Application.EmployeeTest" />
-        <item itemvalue="Application.DishTask" />
-        <item itemvalue="Application.StreamOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +142,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708202034622</updated>
-      <workItem from="1708202035618" duration="8355000" />
+      <workItem from="1708202035618" duration="14222000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <option name="closed" value="true" />
@@ -175,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708215226478</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Matching stream review">
+      <option name="closed" value="true" />
+      <created>1708217149111</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708217149111</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +203,7 @@
     <MESSAGE value="stream review" />
     <MESSAGE value="stream practice Dish class" />
     <MESSAGE value="flatMap refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="flatMap refactor" />
+    <MESSAGE value="Matching stream review" />
+    <option name="LAST_COMMIT_MESSAGE" value="Matching stream review" />
   </component>
 </project>
