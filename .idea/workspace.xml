@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c95c59-9a3f-4aa6-9968-026203b413c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/DishData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/DishTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/EmployeeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/FlatMap().txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.DishTask.executor": "Run",
+    "Application.EmployeeTest.executor": "Run",
     "Application.StreamOperations.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -55,13 +57,23 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CYDEO\MyProjects\java-review\streams-review\src\main\java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DishTask">
+  <component name="RunManager" selected="Application.EmployeeTest">
     <configuration name="DishTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DishTask" />
+      <module name="streams-review" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
       <module name="streams-review" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,6 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeTest" />
         <item itemvalue="Application.DishTask" />
         <item itemvalue="Application.StreamOperations" />
       </list>
@@ -103,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708202034622</updated>
-      <workItem from="1708202035618" duration="5073000" />
+      <workItem from="1708202035618" duration="6574000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <option name="closed" value="true" />
@@ -129,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708204031749</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="stream practice Dish class">
+      <option name="closed" value="true" />
+      <created>1708213891085</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708213891085</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +159,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor" />
     <MESSAGE value="stream review" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream review" />
+    <MESSAGE value="stream practice Dish class" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream practice Dish class" />
   </component>
 </project>
