@@ -1,4 +1,6 @@
 import java.util.*;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 public class CodingSolutions {
 
@@ -52,25 +54,28 @@ public class CodingSolutions {
     // OR
 
     public static int[] indexOfSumFinderOptimal(int[] arr, int target) {
-        Map<Integer,Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < arr.length; i++) {
-            int potentialMatch = target-arr[i];
-            if(map.containsKey(potentialMatch)) return new int[]{i,potentialMatch};
-            else map.put(arr[i],i);
+            int potentialMatch = target - arr[i];
+            if (map.containsKey(potentialMatch)) return new int[]{i, potentialMatch};
+            else map.put(arr[i], i);
         }
         return null;
     }
 
 
-
-
-
+    // count elements in collection as a map key / value
+    public <T> Map<T, Long> collectionToMap(Collection<T> collection) {
+        return collection.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+    }
 
 
     public static void main(String[] args) {
-        int[] arr = {2, 7, 11, 15};
-        int target = 9;
-        System.out.println(Arrays.toString( indexOfSumFinder(arr, target)));
+        List<String> lang = Arrays.asList("java", "java", "python", "ruby", "c", "c++", "c++");
+        List<Integer> nums = Arrays.asList(1, 23, 4, 4, 1, 2, 5, 7, 6, 4);
+
+        CodingSolutions codingSolutions = new CodingSolutions();
+        System.out.println(codingSolutions.collectionToMap(nums));
     }
 
 }

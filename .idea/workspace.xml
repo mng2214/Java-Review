@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c95c59-9a3f-4aa6-9968-026203b413c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/Reducing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/StateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/Trader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/TraderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/TransactionData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/InfiniteStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/JavaCollectors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streams-review/src/main/java/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams-review/src/main/java/EmployeeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streams-review/src/main/java/MatchingAndFinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams-review/src/main/java/MatchingAndFinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streams-review/src/main/java/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams-review/src/main/java/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution-libruary/src/main/java/CodingSolutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/solution-libruary/src/main/java/CodingSolutions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +39,12 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.CityData.executor": "Run",
+    "Application.CodingSolutions.executor": "Run",
     "Application.DishTask.executor": "Run",
     "Application.EmployeeTest.executor": "Run",
+    "Application.Fibonacci.executor": "Run",
+    "Application.InfiniteStream.executor": "Run",
+    "Application.JavaCollectors.executor": "Run",
     "Application.MatchingAndFinding.executor": "Run",
     "Application.Reducing.executor": "Run",
     "Application.StateTest.executor": "Run",
@@ -74,23 +72,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StateTest">
-    <configuration name="CityData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CityData" />
+  <component name="RunManager" selected="Application.JavaCollectors">
+    <configuration name="CodingSolutions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingSolutions" />
+      <module name="solution-libruary-practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InfiniteStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InfiniteStream" />
       <module name="streams-review" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatchingAndFinding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MatchingAndFinding" />
-      <module name="streams-review" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Reducing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reducing" />
+    <configuration name="JavaCollectors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaCollectors" />
       <module name="streams-review" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaCollectors" />
+        <item itemvalue="Application.CodingSolutions" />
+        <item itemvalue="Application.InfiniteStream" />
         <item itemvalue="Application.StateTest" />
         <item itemvalue="Application.TraderTest" />
-        <item itemvalue="Application.Reducing" />
-        <item itemvalue="Application.MatchingAndFinding" />
-        <item itemvalue="Application.CityData" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708202034622</updated>
-      <workItem from="1708202035618" duration="14222000" />
+      <workItem from="1708202035618" duration="19493000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <option name="closed" value="true" />
@@ -192,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708217149111</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="stream review + practice">
+      <option name="closed" value="true" />
+      <created>1708298848219</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708298848219</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +210,7 @@
     <MESSAGE value="stream practice Dish class" />
     <MESSAGE value="flatMap refactor" />
     <MESSAGE value="Matching stream review" />
-    <option name="LAST_COMMIT_MESSAGE" value="Matching stream review" />
+    <MESSAGE value="stream review + practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream review + practice" />
   </component>
 </project>
