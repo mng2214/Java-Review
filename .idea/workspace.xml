@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c95c59-9a3f-4aa6-9968-026203b413c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/InfiniteStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/JavaCollectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/BigDecimalClass/BigDecimalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/optionalDemo/OptionalDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution-libruary/src/main/java/CodingSolutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/solution-libruary/src/main/java/CodingSolutions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streams-review/src/main/java/JavaCollectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams-review/src/main/java/JavaCollectors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.BigDecimalDemo.executor": "Run",
     "Application.CityData.executor": "Run",
     "Application.CodingSolutions.executor": "Run",
     "Application.DishTask.executor": "Run",
@@ -46,6 +47,7 @@
     "Application.InfiniteStream.executor": "Run",
     "Application.JavaCollectors.executor": "Run",
     "Application.MatchingAndFinding.executor": "Run",
+    "Application.OptionalDemo.executor": "Run",
     "Application.Reducing.executor": "Run",
     "Application.StateTest.executor": "Run",
     "Application.StreamOperations.executor": "Run",
@@ -72,7 +74,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaCollectors">
+  <component name="RunManager" selected="Application.BigDecimalDemo">
+    <configuration name="BigDecimalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BigDecimalClass.BigDecimalDemo" />
+      <module name="streams-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BigDecimalClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CodingSolutions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodingSolutions" />
       <module name="solution-libruary-practice" />
@@ -94,16 +109,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StateTest" />
+    <configuration name="OptionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optionalDemo.OptionalDemo" />
       <module name="streams-review" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TraderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TraderTest" />
-      <module name="streams-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="optionalDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BigDecimalDemo" />
+        <item itemvalue="Application.OptionalDemo" />
         <item itemvalue="Application.JavaCollectors" />
         <item itemvalue="Application.CodingSolutions" />
         <item itemvalue="Application.InfiniteStream" />
-        <item itemvalue="Application.StateTest" />
-        <item itemvalue="Application.TraderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708202034622</updated>
-      <workItem from="1708202035618" duration="19493000" />
+      <workItem from="1708202035618" duration="20997000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <option name="closed" value="true" />
@@ -198,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708298848219</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="java collectors review">
+      <option name="closed" value="true" />
+      <created>1708304256836</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708304256836</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +233,7 @@
     <MESSAGE value="flatMap refactor" />
     <MESSAGE value="Matching stream review" />
     <MESSAGE value="stream review + practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream review + practice" />
+    <MESSAGE value="java collectors review" />
+    <option name="LAST_COMMIT_MESSAGE" value="java collectors review" />
   </component>
 </project>

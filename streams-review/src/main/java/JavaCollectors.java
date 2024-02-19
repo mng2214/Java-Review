@@ -91,8 +91,5 @@ public class JavaCollectors {
         System.out.println("groupingBy() " + collect10);
         System.out.println("-".repeat(40));
 
-
-
-
     }
 }
