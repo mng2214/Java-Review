@@ -69,13 +69,25 @@ public class CodingSolutions {
         return collection.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
     }
 
+    public <T>   List<T> findDuplicates (List<T> list){
+        List<T> collect = list.stream()
+                .filter(i -> list.indexOf(i) != list.lastIndexOf(i))
+                .distinct()
+                .collect(Collectors.toList());
+        System.out.println("Dups: "+ collect);
+        return collect;
+        //  List<Integer> list = new ArrayList<>(List.of(1, 2, 3, 4, 2, 3, 5, 6, 6, 7, 8, 9, 9));
+    }
+
 
     public static void main(String[] args) {
-        List<String> lang = Arrays.asList("java", "java", "python", "ruby", "c", "c++", "c++");
-        List<Integer> nums = Arrays.asList(1, 23, 4, 4, 1, 2, 5, 7, 6, 4);
+       List<String> lang = Arrays.asList("java", "java", "python", "ruby", "c", "c++", "c++");
+       List<Integer> nums = Arrays.asList(1, 23, 4, 4, 1, 2, 5, 7, 6, 4);
+//
+     CodingSolutions codingSolutions = new CodingSolutions();
+//        System.out.println(codingSolutions.collectionToMap(nums));
 
-        CodingSolutions codingSolutions = new CodingSolutions();
-        System.out.println(codingSolutions.collectionToMap(nums));
+        codingSolutions. findDuplicates(nums);
     }
 
 }

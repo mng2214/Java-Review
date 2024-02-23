@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c95c59-9a3f-4aa6-9968-026203b413c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/BigDecimalClass/BigDecimalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams-review/src/main/java/optionalDemo/OptionalDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streams-review/src/main/java/JavaCollectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams-review/src/main/java/JavaCollectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution-libruary/src/main/java/CodingSolutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/solution-libruary/src/main/java/CodingSolutions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streams-review/src/main/java/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams-review/src/main/java/EmployeeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2cVgCqLDpIltras8GZggyD7g66x" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,37 +34,37 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.BigDecimalDemo.executor": "Run",
-    "Application.CityData.executor": "Run",
-    "Application.CodingSolutions.executor": "Run",
-    "Application.DishTask.executor": "Run",
-    "Application.EmployeeTest.executor": "Run",
-    "Application.Fibonacci.executor": "Run",
-    "Application.InfiniteStream.executor": "Run",
-    "Application.JavaCollectors.executor": "Run",
-    "Application.MatchingAndFinding.executor": "Run",
-    "Application.OptionalDemo.executor": "Run",
-    "Application.Reducing.executor": "Run",
-    "Application.StateTest.executor": "Run",
-    "Application.StreamOperations.executor": "Run",
-    "Application.TraderTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/CYDEO/MyProjects/stream-practice-master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BigDecimalDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CityData.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CodingSolutions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DishTask.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InfiniteStream.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaCollectors.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MatchingAndFinding.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OptionalDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reducing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StateTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TraderTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/CYDEO/MyProjects/stream-practice-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\CYDEO\MyProjects\java-review\streams-review\src\main\java" />
@@ -74,7 +73,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BigDecimalDemo">
+  <component name="RunManager" selected="Application.CodingSolutions">
     <configuration name="BigDecimalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BigDecimalClass.BigDecimalDemo" />
       <module name="streams-review" />
@@ -95,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfiniteStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InfiniteStream" />
+    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
       <module name="streams-review" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodingSolutions" />
+        <item itemvalue="Application.EmployeeTest" />
         <item itemvalue="Application.BigDecimalDemo" />
         <item itemvalue="Application.OptionalDemo" />
         <item itemvalue="Application.JavaCollectors" />
-        <item itemvalue="Application.CodingSolutions" />
-        <item itemvalue="Application.InfiniteStream" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +153,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708202034622</updated>
-      <workItem from="1708202035618" duration="20997000" />
+      <workItem from="1708202035618" duration="23674000" />
+      <workItem from="1708383480810" duration="6362000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <option name="closed" value="true" />
@@ -220,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708304256836</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="big decimal and optional call review">
+      <option name="closed" value="true" />
+      <created>1708305819824</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708305819824</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +242,7 @@
     <MESSAGE value="Matching stream review" />
     <MESSAGE value="stream review + practice" />
     <MESSAGE value="java collectors review" />
-    <option name="LAST_COMMIT_MESSAGE" value="java collectors review" />
+    <MESSAGE value="big decimal and optional call review" />
+    <option name="LAST_COMMIT_MESSAGE" value="big decimal and optional call review" />
   </component>
 </project>
